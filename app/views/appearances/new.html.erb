@@ -1,0 +1,10 @@
+<h1>New Appearance</h1>
+ <%= form_for @appearance do |f| %>
+ <%= f.label :episode_id %>
+ <%= f.integer :episode_id
+ <%= f.label :guest_id %>
+ <%= f.integer :guest_id
+ <%= f.label :rating %>
+ <%= f.integer :rating %>
+ <%= f.submit %>
+ <% end %>
